@@ -1,3 +1,7 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+firstpage:
+  path: /firstpage
+  controller: App\Controller\FirstPageController.php
