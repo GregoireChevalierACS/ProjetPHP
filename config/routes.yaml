@@ -2,6 +2,10 @@
 #    path: /
 #    controller: App\Controller\DefaultController::index
 
-firstpage:
-  path: /firstpage
-  controller: App\Controller\FirstPageController.php
+# firstpage:
+#   path: /firstpage
+#   controller: App\Controller\FirstPageController.php
+
+app_lucky_number:
+    path: /lucky/number
+    controller: App\Controller\FirstPageController::number
