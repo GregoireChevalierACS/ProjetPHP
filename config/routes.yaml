@@ -9,3 +9,7 @@
 app_lucky_number:
     path: /lucky/number
     controller: App\Controller\FirstPageController::number
+
+page_deux:
+    path: /secondpage
+    controller: App\Controller\SecondPageController::sayHello
